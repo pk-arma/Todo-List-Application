@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.todo-input {
+  margin: 20px 0;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.todo-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+}
+
+.clear-btn {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: darkred;
+}
